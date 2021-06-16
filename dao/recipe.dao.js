@@ -13,13 +13,15 @@ class RecipeDao {
         console.log("path = " + storagePath );
         this.storagePath = storagePath ? storagePath : DEFAULT_STORAGE_PATH;
         console.log("path = " + this.storagePath);
+        
     }
 
     async add(material) {
         let materials = await this._load();
         let id = material.id.toString();
         materials[material.id] = material;
-        this._write(materials);
+        this._write(materials); 
+
     }
 
     async one(id){
