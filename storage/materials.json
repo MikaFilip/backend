@@ -1,0 +1,16 @@
+{
+  "1247": {
+    "name": "anop",
+    "id": "145"
+  },
+  "2454": {
+    "name": "anop",
+    "id": "2455"
+  },
+  "test": {
+    "name": "salt",
+    "id": "test",
+    "measureType": "common",
+    "measureUnit": "common"
+  }
+}
